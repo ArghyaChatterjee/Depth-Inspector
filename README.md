@@ -2,6 +2,16 @@
 
 A generic repository for depth map inspection.
 
+<div align="center">
+  <img src="media/rgb_map.png" width="400">
+  <img src="media/depth_map.png" width="400">
+</div>
+
+<div align="center">
+  <img src="media/jet_map.png" width="400">
+  <img src="media/rainbow_map.png" width="400">
+</div>
+
 # UINT8 Depth Image
 An **8-bit depth image** is typically stored using an **unsigned 8-bit integer** data type, also known as **`uint8`**. Here’s a breakdown of its properties:
 
@@ -29,17 +39,6 @@ To represent larger depth ranges with `uint8`, the depth values are often **norm
 - **Common Use**: Mostly used for visualizations after normalizing the depth data to fit within `0–255`.
   
 For depth data storage, **`uint16` or `float32`** are generally preferred over `uint8` due to their significantly larger ranges and precision.
-
-
-<div align="center">
-  <img src="media/rgb_map.png" width="400">
-  <img src="media/depth_map.png" width="400">
-</div>
-
-<div align="center">
-  <img src="media/jet_map.png" width="400">
-  <img src="media/rainbow_map.png" width="400">
-</div>
 
 # UINT16 Depth Image
 For `uint16` (16-bit unsigned integer) depth images, the range and precision are limited compared to `float32`. Here’s what you need to know:
