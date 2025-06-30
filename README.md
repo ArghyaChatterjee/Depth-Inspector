@@ -1,6 +1,6 @@
 # Depth Inspector
 
-A generic repository for depth map inspection.
+A depth inspection tool for inspecting values of depth maps.
 
 <div align="center">
   <img src="media/rgb_map.jpg" width="400">
