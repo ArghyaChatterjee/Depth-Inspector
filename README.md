@@ -207,7 +207,9 @@ $$ Z = \frac{f \cdot B}{d} $$
 
 If the principle points are not same for both the cameras and the camera intrinsics and camera baseline are known, disparity predictions can be converted to depth values using:
 
-<img src="media/depth_eq.png" width="320">
+<div align="center">
+  <img src="media/depth_eq.png" width="320">
+</div>
 
 Note that the units of the focal length are _pixels_ not millimeters. (cx1-cx0) is the x-difference of principal points.
 
