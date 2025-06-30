@@ -196,6 +196,22 @@ This example shows how the values are represented differently, and converting ba
   <img src="media/depth_vs_disparity.png" width="425">
 </div>
 
+# Converting Disparity to Depth 
+A representative method to estimate metric-scale depth maps is to convert a stereo image’s disparity map into depth maps using the camera focal length f and baseline
+B (i.e. seperation between cameras). The disparity map encodes depth information of a scene by measuring the pixel displacement between corresponding points in stereo images.
+The conversion from disparity d to depth Z is given by:
+
+The equation shown represents the formula for calculating the depth \( Z \) in stereo vision. It can be rewritten as:
+
+$$ Z = \frac{f \cdot B}{d} $$
+
+If the principle points are not same for both the cameras and the camera intrinsics and camera baseline are known, disparity predictions can be converted to depth values using:
+
+<img src="media/depth_eq.png" width="320">
+
+Note that the units of the focal length are _pixels_ not millimeters. (cx1-cx0) is the x-difference of principal points.
+
+
 # Process of PNG files storing depth images
 
 PNG images can store `uint16` values but **cannot** natively store `float32` values. Here’s a breakdown:
