@@ -192,8 +192,8 @@ This example shows how the values are represented differently, and converting ba
 # Depth vs Disparity
 
 <div align="center">
-  <img src="media/stereo_depth.png" width="400">
-  <img src="media/depth_vs_disparity.png" width="428">
+  <img src="media/stereo_depth.png" width="395">
+  <img src="media/depth_vs_disparity.png" width="425">
 </div>
 
 # Process of PNG files storing depth images
