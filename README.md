@@ -3,7 +3,7 @@
 A generic repository for depth map inspection.
 
 <div align="center">
-  <img src="media/rgb_map.png" width="400">
+  <img src="media/rgb_map.jpg" width="400">
   <img src="media/depth_map.png" width="400">
 </div>
 
