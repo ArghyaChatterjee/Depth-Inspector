@@ -189,6 +189,13 @@ print(depth_map_reconstructed)
 
 This example shows how the values are represented differently, and converting back can give approximate results but without the original precision if it was clipped.
 
+# Depth vs Disparity
+
+<div align="center">
+  <img src="media/stereo_depth.png" width="400">
+  <img src="media/depth_vs_disparity.png" width="400">
+</div>
+
 # Process of PNG files storing depth images
 
 PNG images can store `uint16` values but **cannot** natively store `float32` values. Here’s a breakdown:
